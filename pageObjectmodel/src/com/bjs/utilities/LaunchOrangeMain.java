@@ -22,6 +22,7 @@ public class LaunchOrangeMain {
 		d.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		HomePage h = new HomePage(d);
 		h.nextPage();
+		System.out.println();
 	}
 
 }
